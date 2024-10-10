@@ -21,11 +21,19 @@
   align-items: center;
 }
 
-.img {
+/* .img {
   max-width: 300px;
   max-height: 300px;
-}
+} */
 
 .col-sm-6{
     padding: 20px;
+}
+.add {
+  width: 400px;
+}
+
+.newSize{
+  min-width: 130px;
+  margin-top: 18px;
 }
