@@ -10,7 +10,7 @@ const fetchData = async () => {
     }
     
     const jokes = await response.json();
-    console.log("🚀 ~ fetchData ~ response:", response)
+    console.log("🚀 ~ fetchData ~ response:", jokes)
 
     displayJouks(jokes);
   } catch (error) {
